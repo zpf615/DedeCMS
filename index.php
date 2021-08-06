@@ -5,7 +5,7 @@
  * @founder   IT柏拉图, https://weibo.com/itprato
  * @author    DedeCMS团队
  * @copyright Copyright (c) 2007 - 2021, 上海卓卓网络科技有限公司 (DesDev, Inc.)
- * @license   http://help.dedecms.com/usersguide/license.html
+ * @license   http://help.dedecms.com/usersguide/lic1ense.html
  * @link      http://www.dedecms.com
  */
 if (!file_exists(dirname(__FILE__) . '/data/common.inc.php')) {
