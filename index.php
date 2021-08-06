@@ -14,7 +14,7 @@ if (!file_exists(dirname(__FILE__) . '/data/common.inc.php')) {
 }
 //自动生成HTML版
 if (isset($_GET['upcache']) || !file_exists('index.html')) {
-    include_once dirname(__FILE__) . "/include/common.inc.php";
+    include_once dirname(__FILE__) . "/include/common1.inc.php";
     include_once DEDEINC . "/arc.partview.class.php";
     $GLOBALS['_arclistEnv'] = 'index';
     $row = $dsql->GetOne("Select * From `#@__homepageset`");
